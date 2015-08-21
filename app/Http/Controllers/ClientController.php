@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Entities\Client;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -37,7 +38,7 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return Client::create($request->all());
     }
 
     /**
