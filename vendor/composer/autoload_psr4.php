@@ -22,6 +22,7 @@ return array(
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'SuperClosure\\' => array($vendorDir . '/jeremeamia/SuperClosure/src'),
     'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
+    'Prettus\\Repository\\' => array($vendorDir . '/prettus/l5-repository/src/Prettus/Repository'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
     'Illuminate\\' => array($vendorDir . '/laravel/framework/src/Illuminate'),
