@@ -16,7 +16,7 @@ class ClientController extends Controller
      */
     public function index()
     {
-        //
+        return \App\Entities\Client::all();
     }
 
     /**
