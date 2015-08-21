@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Entities\Client;
 use Illuminate\Http\Request;
-
+use App\Repositories\ClientRepositoryEloquent;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -15,9 +15,9 @@ class ClientController extends Controller
      *
      * @return Response
      */
-    public function index()
+    public function index(ClientRepositoryEloquent $repository)
     {
-        return \App\Entities\Client::all();
+        return $repository->all();
     }
 
     /**
