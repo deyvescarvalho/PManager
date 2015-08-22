@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 use App\Repositories\ProjectRepository;
 use App\Services\ProjectService;
 use Illuminate\Http\Request;
@@ -70,7 +70,7 @@ class ProjectController extends Controller
      */
     public function show($id)
     {
-
+        
         return $this->repository->find($id);
     }
 
