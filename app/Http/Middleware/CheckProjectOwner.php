@@ -2,10 +2,23 @@
 
 namespace App\Http\Middleware;
 
+use App\Repositories\ProjectRepository;
+use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 use Closure;
 
 class CheckProjectOwner
 {
+
+    /**
+     * @var ProjectRepository
+     */
+    private $repository;
+
+    public function __construct(ProjectRepository $repository)
+    {
+
+        $this->repository = $repository;
+    }
     /**
      * Handle an incoming request.
      *
@@ -18,7 +31,7 @@ class CheckProjectOwner
         $userId = Authorizer::getResourceOwnerId();
         $projectId = $request->project;
         if($this->repository->isOwner($projectId, $userId) == false){
-            return ['success' => false];
+            return ['error' => 'Access forbidden'];
         }
 
         return $next($request);
