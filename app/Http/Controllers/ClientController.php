@@ -2,9 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\ClientService;
 use Illuminate\Http\Request;
 use App\Repositories\ClientRepository;
 
+/**
+ * Class ClientController
+ * @package App\Http\Controllers
+ */
 class ClientController extends Controller
 {
     /**
@@ -12,10 +17,19 @@ class ClientController extends Controller
      */
 
     private $repository;
+    /**
+     * @var ClientService
+     */
+    private $clientService;
 
-    public function __construct(ClientRepository $repository)
+    /**
+     * @param ClientRepository $repository
+     * @param ClientService $clientService
+     */
+    public function __construct(ClientRepository $repository, ClientService $clientService)
     {
         $this->repository = $repository;
+        $this->clientService = $clientService;
     }
     /**
      * Display a listing of the resource.
@@ -24,7 +38,7 @@ class ClientController extends Controller
      */
     public function index()
     {
-        return $this->repository->all();
+        return $this->clientService->all();
     }
 
     /**
@@ -45,7 +59,7 @@ class ClientController extends Controller
      */
     public function store(Request $request)
     {
-        return $this->repository->create($request->all());
+        return $this->clientService->create($request->all());
     }
 
     /**
@@ -56,7 +70,8 @@ class ClientController extends Controller
      */
     public function show($id)
     {
-        return Client::find($id);
+
+        return $this->repository->find($id);
     }
 
     /**
@@ -79,7 +94,7 @@ class ClientController extends Controller
      */
     public function update(Request $request, $id)
     {
-        return Client::find($id)->update($request->all());
+        return $this->clientService->update($request->all(), $id);
     }
 
     /**
@@ -90,6 +105,6 @@ class ClientController extends Controller
      */
     public function destroy($id)
     {
-        Client::find($id)->delete();
+        return $this->repository->delete($id);
     }
 }
