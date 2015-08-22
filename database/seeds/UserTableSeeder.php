@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Database\Seeder;
 
-class ClientTableSeeder extends Seeder
+class UserTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,6 @@ class ClientTableSeeder extends Seeder
     public function run()
     {
 //        \App\Entities\Client::truncate();
-        factory(\App\Entities\Client::class, 10)->create();
+        factory(\App\Entities\User::class, 10)->create();
     }
 }
