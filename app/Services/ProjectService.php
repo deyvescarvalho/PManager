@@ -9,9 +9,8 @@
 namespace App\Services;
 
 
-use App\Repositories\ClientRepository;
+
 use App\Repositories\ProjectRepository;
-use App\Validators\ClientValidator;
 use App\Validators\ProjectValidator;
 use Prettus\Validator\Exceptions\ValidatorException;
 
