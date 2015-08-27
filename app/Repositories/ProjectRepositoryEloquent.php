@@ -38,4 +38,16 @@ class ProjectRepositoryEloquent extends BaseRepository implements ProjectReposit
         return false;
 
     }
+
+    public function hasMember($project_id, $member_id)
+    {
+        $project = $this->find($project_id);
+        foreach ($project->members as $member ) {
+            if($member->id == $member_id){
+                return true;
+            }
+        }
+        return false;
+
+    }
 }
