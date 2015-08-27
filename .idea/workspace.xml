@@ -25,7 +25,7 @@
       <file leaf-file-name="ProjectMember.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Entities/ProjectMember.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.333333">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#32#71#0#PHP" expanded="true" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6331878">
-              <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding>
                 <element signature="e#39#78#0#PHP" expanded="true" />
                 <element signature="e#502#691#0#PHP" expanded="true" />
@@ -51,23 +51,52 @@
                 <element signature="e#1760#1808#0#PHP" expanded="true" />
                 <element signature="e#1967#2203#0#PHP" expanded="true" />
                 <element signature="e#2331#2530#0#PHP" expanded="true" />
-                <element signature="e#2536#2712#0#PHP" expanded="true" />
+                <element signature="e#2718#2897#0#PHP" expanded="true" />
                 <element signature="e#2903#3116#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectRepositoryEloquent.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProjectTransformer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Transformers/ProjectTransformer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <element signature="e#121#146#0#PHP" expanded="true" />
+                <element signature="e#247#598#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectPresenter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Presenters/ProjectPresenter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <element signature="e#118#158#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectRepositoryEloquent.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Repositories/ProjectRepositoryEloquent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.444445">
-              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="e#36#83#0#PHP" expanded="true" />
                 <element signature="e#410#476#0#PHP" expanded="true" />
                 <element signature="e#546#640#0#PHP" expanded="true" />
                 <element signature="e#646#842#0#PHP" expanded="true" />
+                <element signature="e#848#1124#0#PHP" expanded="true" />
+                <element signature="e#1130#1184#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +105,7 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Entities/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.444445">
+            <state vertical-scroll-proportion="0.0">
               <caret line="37" column="96" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
               <folding>
                 <element signature="e#32#68#0#PHP" expanded="true" />
@@ -88,7 +117,7 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.777778">
+            <state vertical-scroll-proportion="0.0">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#7#392#0#PHP" expanded="true" />
@@ -105,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Entities/Client.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/ClientRepositoryEloquent.php" />
         <option value="$PROJECT_DIR$/app/Repositories/ClientRepository.php" />
         <option value="$PROJECT_DIR$/app/Validators/ClientValidator.php" />
         <option value="$PROJECT_DIR$/database/seeds/ProjectTableSeeder.php" />
@@ -154,8 +181,10 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_08_27_005604_create_table_project_members.php" />
         <option value="$PROJECT_DIR$/app/Entities/User.php" />
         <option value="$PROJECT_DIR$/app/Entities/ProjectMember.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/ProjectRepositoryEloquent.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/ProjectTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Presenters/ProjectPresenter.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/ProjectRepositoryEloquent.php" />
       </list>
     </option>
   </component>
@@ -176,10 +205,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="18" />
-    <option name="width" value="1456" />
-    <option name="height" value="890" />
+    <option name="width" value="1382" />
+    <option name="height" value="758" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -232,25 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,6 +276,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transformers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,47 +315,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entities" />
+              <option name="myItemId" value="Presenters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,28 +394,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="18" width="1456" height="890" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="18" width="1382" height="758" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37267524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3836858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55870444" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -459,20 +434,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppRepositoryProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65938866">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/ProjectService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -647,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,10 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68122274">
           <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="n#up#0;n#CreateClientsTable#0;n#!!top" expanded="false" />
-            <element signature="e#276#610#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,12 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.7777777">
           <caret line="41" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthGrantScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#1410#1593#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,14 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="49" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthClientsTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthClientsTable#0;n#!!top" expanded="false" />
-            <element signature="e#685#932#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthClientsTable#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,15 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="59" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthClientEndpointsTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthClientEndpointsTable#0;n#!!top" expanded="false" />
-            <element signature="e#712#1148#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthClientEndpointsTable#0;n#!!top" expanded="false" />
-            <element signature="e#1313#1429#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,15 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="63" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthClientScopesTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthClientScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#703#1264#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthClientScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#1426#1612#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,15 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="64" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthClientGrantsTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthClientGrantsTable#0;n#!!top" expanded="false" />
-            <element signature="e#703#1347#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthClientGrantsTable#0;n#!!top" expanded="false" />
-            <element signature="e#1509#1695#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,15 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="59" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthSessionsTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthSessionsTable#0;n#!!top" expanded="false" />
-            <element signature="e#689#1269#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthSessionsTable#0;n#!!top" expanded="false" />
-            <element signature="e#1426#1534#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,15 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="63" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthSessionScopesTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthSessionScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#706#1280#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthSessionScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#1443#1632#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,15 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="58" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthAuthCodesTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthAuthCodesTable#0;n#!!top" expanded="false" />
-            <element signature="e#694#1145#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthAuthCodesTable#0;n#!!top" expanded="false" />
-            <element signature="e#1304#1415#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,15 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="63" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthAuthCodeScopesTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthAuthCodeScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#706#1279#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthAuthCodeScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#1444#1639#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,15 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="58" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthAccessTokensTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthAccessTokensTable#0;n#!!top" expanded="false" />
-            <element signature="e#703#1160#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthAccessTokensTable#0;n#!!top" expanded="false" />
-            <element signature="e#1322#1436#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,15 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="63" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthAccessTokenScopesTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthAccessTokenScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#720#1305#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthAccessTokenScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#1473#1677#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,15 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.444445">
           <caret line="56" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#CreateOauthRefreshTokensTable#0;n#!!top" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthRefreshTokensTable#0;n#!!top" expanded="false" />
-            <element signature="e#706#1087#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthRefreshTokensTable#0;n#!!top" expanded="false" />
-            <element signature="e#1250#1370#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,13 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.111111">
           <caret line="22" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthGrantsTable#0;n#!!top" expanded="false" />
-            <element signature="e#683#805#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthGrantsTable#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16157205">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#7#240#0#PHP" expanded="false" />
-            <element signature="e#242#287#0#PHP" expanded="false" />
-            <element signature="n#up#0;n#CreateOauthScopesTable#0;n#!!top" expanded="false" />
-            <element signature="e#683#849#1#PHP" expanded="false" />
-            <element signature="n#down#0;n#CreateOauthScopesTable#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,10 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7117904">
           <caret line="34" column="9" selection-start-line="30" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="e#39#78#0#PHP" expanded="true" />
-            <element signature="e#247#359#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,16 +741,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47161573">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#7#48#0#PHP" expanded="true" />
-            <element signature="n#down#0;n#CreateTableProjectMembers#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.777778">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#7#392#0#PHP" expanded="true" />
@@ -930,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Entities/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.444445">
+        <state vertical-scroll-proportion="0.0">
           <caret line="37" column="96" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
           <folding>
             <element signature="e#32#68#0#PHP" expanded="true" />
@@ -940,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Entities/ProjectMember.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.333333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#32#71#0#PHP" expanded="true" />
@@ -950,23 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/ProjectRepositoryEloquent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.444445">
-          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding>
-            <element signature="e#36#83#0#PHP" expanded="true" />
-            <element signature="e#410#476#0#PHP" expanded="true" />
-            <element signature="e#546#640#0#PHP" expanded="true" />
-            <element signature="e#646#842#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6331878">
-          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           <folding>
             <element signature="e#39#78#0#PHP" expanded="true" />
             <element signature="e#502#691#0#PHP" expanded="true" />
@@ -977,8 +793,46 @@
             <element signature="e#1760#1808#0#PHP" expanded="true" />
             <element signature="e#1967#2203#0#PHP" expanded="true" />
             <element signature="e#2331#2530#0#PHP" expanded="true" />
-            <element signature="e#2536#2712#0#PHP" expanded="true" />
+            <element signature="e#2718#2897#0#PHP" expanded="true" />
             <element signature="e#2903#3116#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Presenters/ProjectPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <element signature="e#118#158#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/ProjectTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <element signature="e#121#146#0#PHP" expanded="true" />
+            <element signature="e#247#598#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/ProjectRepositoryEloquent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#83#0#PHP" expanded="true" />
+            <element signature="e#410#476#0#PHP" expanded="true" />
+            <element signature="e#546#640#0#PHP" expanded="true" />
+            <element signature="e#646#842#0#PHP" expanded="true" />
+            <element signature="e#848#1124#0#PHP" expanded="true" />
+            <element signature="e#1130#1184#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
