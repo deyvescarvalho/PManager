@@ -148,6 +148,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\AppRepositoryProvider::class,
+        Bestmomo\Scafold\ScafoldServiceProvider::class,
 
     ],
 

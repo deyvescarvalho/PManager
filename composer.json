@@ -11,6 +11,7 @@
         "prettus/l5-repository": "^2.1",
         "prettus/laravel-validation": "1.1.*",
         "lucadegasperi/oauth2-server-laravel": "5.0.*@dev",
+        "bestmomo/scafold": "dev-master",
         "league/fractal": "^0.13.0@dev"
     },
     "require-dev": {
