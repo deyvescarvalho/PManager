@@ -12,6 +12,8 @@ namespace App\Services;
 
 use App\Repositories\ProjectRepository;
 use App\Validators\ProjectValidator;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
 use Prettus\Validator\Exceptions\ValidatorException;
 
 class ProjectService
@@ -59,6 +61,11 @@ class ProjectService
             ];
         }
 
+    }
+
+    public function createFile(array $data)
+    {
+        Storage::put($data['name'].".".$data['extension'], File::get($data['file']));
     }
 
 

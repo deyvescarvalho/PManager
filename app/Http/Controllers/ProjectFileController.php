@@ -21,16 +21,16 @@ class ProjectFileController extends Controller
     /**
      * @var ClientService
      */
-    private $clientService;
+    private $service;
 
     /**
      * @param ClientRepository $repository
-     * @param ClientService $clientService
+     * @param ClientService $service
      */
-    public function __construct(ProjectRepository $repository, ProjectService $clientService)
+    public function __construct(ProjectRepository $repository, ProjectService $service)
     {
         $this->repository = $repository;
-        $this->clientService = $clientService;
+        $this->service = $service;
     }
     /**
      * Display a listing of the resource.
@@ -63,10 +63,11 @@ class ProjectFileController extends Controller
     {
         $file = $request->file('file');
         $extension = $file->getClientOriginalExtension();
+        $data['file'] = $file;
+        $data['extension'] = $extension;
+        $data['name'] = $request->name;
 
-        echo $request->name;
-
-        Storage::put($request->name.".".$extension, File::get($file));
+        $this->service->createFile($data);
     }
 
     /**
@@ -106,7 +107,7 @@ class ProjectFileController extends Controller
         if($this->checkProjectOwner($id)==false){
             return ['error' => 'Access Forbidden'];
         }
-        return $this->clientService->update($request->all(), $id);
+        return $this->service->update($request->all(), $id);
     }
 
     /**
