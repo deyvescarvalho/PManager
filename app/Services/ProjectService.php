@@ -12,7 +12,7 @@ namespace App\Services;
 
 use App\Repositories\ProjectRepository;
 use App\Validators\ProjectValidator;
-use Illuminate\Support\Facades\File;
+//use Illuminate\Support\Facades\File;
 use Illuminate\Contracts\Filesystem\Factory as Storage;
 use Prettus\Validator\Exceptions\ValidatorException;
 
@@ -71,12 +71,14 @@ class ProjectService
                 'message' => $e->getMessageBag()
             ];
         }
-
     }
 
     public function createFile(array $data)
     {
-        $this->storage->put($data['name'].".".$data['extension'], $this->filesystem->get($data['file']));
+        $project = $this->repository->skipPresenter()->find($data['project_id']);
+        $projectFile = $project->files()->create($data);
+
+        $this->storage->put($projectFile->id.".".$data['extension'], $this->filesystem->get($data['file']));
     }
 
 
