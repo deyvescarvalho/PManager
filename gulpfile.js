@@ -1,6 +1,6 @@
 var elixir = require('laravel-elixir'),
     liveReload = require('gulp-livereload'),
-    clean = require('gulp-clean'),
+    clean = require('rimraf'),
     gulp = require('gulp');
 
 var config = {
@@ -37,7 +37,7 @@ config.vendor_path_css = [
 gulp.task('copy-styles', function(){
     gulp.src([
         config.assets_path + '/css/**/*.css'
-    ])
+    ])//TODO VERIFICAR PORQUE OS CSS NÃO SAO GERADO BUILD---PAREI NA TAREFA CLEAR BUILD FOLDER
         .pipe(gulp.dest(config.build_path_css))
         .pipe(liveReload());
 
@@ -59,7 +59,11 @@ gulp.task('copy-scripts', function(){
         .pipe(liveReload());
 });
 
-gulp.task('watch-dev', function () {
+gulp.task('clear-build-folder', function () {
+    clean.sync(config.build_path);
+})
+
+gulp.task('watch-dev', ['clear-build-folder'], function () {
     liveReload.listen();
     gulp.start('copy-styles', 'copy-scripts');
     gulp.watch(config.assets_path + '/**', ['copy-styles', 'copy-script'])
