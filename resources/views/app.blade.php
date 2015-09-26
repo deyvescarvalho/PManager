@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Laravel</title>
-	@if(config::get('app.debug'))
+	@if(Config::get('app.debug'))
 		<link rel="stylesheet" href="{{asset('build/css/vendor/bootstrap.min.css')}}">
 		<link rel="stylesheet" href="{{asset('build/css/vendor/bootstrap.theme.min.css')}}">
 	@else
